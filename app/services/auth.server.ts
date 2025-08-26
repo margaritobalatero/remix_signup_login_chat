@@ -2,7 +2,7 @@
 import jwt from 'jsonwebtoken';
 import { User, IUser } from '../models/User';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'junjiejunjie';
+const JWT_SECRET = process.env.JWT_SECRET || '';
 
 export interface AuthResult {
   success: boolean;
