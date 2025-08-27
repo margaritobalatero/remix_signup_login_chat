@@ -1,7 +1,7 @@
 // app/session.server.ts
 import { createCookieSessionStorage } from '@remix-run/node';
 
-const sessionSecret = process.env.SESSION_SECRET || 'junjiejunjie';
+const sessionSecret = process.env.SESSION_SECRET || '';
 
 export const sessionStorage = createCookieSessionStorage({
   cookie: {
