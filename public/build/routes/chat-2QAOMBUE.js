@@ -5,7 +5,7 @@ import {
 import {
   useFetcher,
   useLoaderData
-} from "/build/_shared/chunk-S2JB6TLE.js";
+} from "/build/_shared/chunk-VML4QPY3.js";
 import "/build/_shared/chunk-U4FRFQSK.js";
 import {
   require_jsx_dev_runtime
@@ -21,7 +21,7 @@ import {
 } from "/build/_shared/chunk-G7CHZRZX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-X4BLKFCF.js";
+} from "/build/_shared/chunk-OOTAPPPA.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
@@ -51,7 +51,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Chat.tsx"
   );
-  import.meta.hot.lastModified = "1756225253239.4653";
+  import.meta.hot.lastModified = "1756281181793.331";
 }
 function Chat({
   messages: initialMessages,
@@ -178,7 +178,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\chat.tsx"
   );
-  import.meta.hot.lastModified = "1756228645724.919";
+  import.meta.hot.lastModified = "1756274455239.803";
 }
 function ChatRoute() {
   _s2();
@@ -226,4 +226,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   ChatRoute as default
 };
-//# sourceMappingURL=/build/routes/chat-J4VEXKH3.js.map
+//# sourceMappingURL=/build/routes/chat-2QAOMBUE.js.map

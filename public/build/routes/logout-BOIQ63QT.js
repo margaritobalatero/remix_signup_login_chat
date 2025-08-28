@@ -6,7 +6,7 @@ import {
 } from "/build/_shared/chunk-G7CHZRZX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-X4BLKFCF.js";
+} from "/build/_shared/chunk-OOTAPPPA.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
@@ -32,7 +32,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\logout.tsx"
   );
-  import.meta.hot.lastModified = "1756224057754.3186";
+  import.meta.hot.lastModified = "1756274455240.818";
 }
 function Logout() {
   return null;
@@ -45,4 +45,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Logout as default
 };
-//# sourceMappingURL=/build/routes/logout-H7YQPANQ.js.map
+//# sourceMappingURL=/build/routes/logout-BOIQ63QT.js.map

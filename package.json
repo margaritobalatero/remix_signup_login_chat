@@ -4,9 +4,9 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-     "build": "remix build",
-     "dev": "remix dev",   
-    "start": "remix-serve build"    
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build"
   },
   "dependencies": {
     "@remix-run/node": "*",
@@ -17,7 +17,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.18.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-syntax-highlighter": "^15.6.6"
   },
   "devDependencies": {
     "@remix-run/dev": "*",

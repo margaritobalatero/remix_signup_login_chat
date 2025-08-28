@@ -65,4 +65,5 @@ export function Chat({ messages: initialMessages, username }: ChatProps) {
       </fetcher.Form>
     </div>
   );
+  
 }
