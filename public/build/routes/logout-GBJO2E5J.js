@@ -6,7 +6,7 @@ import {
 } from "/build/_shared/chunk-G7CHZRZX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-OOTAPPPA.js";
+} from "/build/_shared/chunk-N5HM5AQT.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
@@ -45,4 +45,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Logout as default
 };
-//# sourceMappingURL=/build/routes/logout-BOIQ63QT.js.map
+//# sourceMappingURL=/build/routes/logout-GBJO2E5J.js.map

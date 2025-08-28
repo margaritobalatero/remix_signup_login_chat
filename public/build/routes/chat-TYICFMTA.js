@@ -5,7 +5,7 @@ import {
 import {
   useFetcher,
   useLoaderData
-} from "/build/_shared/chunk-VML4QPY3.js";
+} from "/build/_shared/chunk-MID7PSDM.js";
 import "/build/_shared/chunk-U4FRFQSK.js";
 import {
   require_jsx_dev_runtime
@@ -21,7 +21,7 @@ import {
 } from "/build/_shared/chunk-G7CHZRZX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-OOTAPPPA.js";
+} from "/build/_shared/chunk-N5HM5AQT.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
@@ -226,4 +226,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   ChatRoute as default
 };
-//# sourceMappingURL=/build/routes/chat-2QAOMBUE.js.map
+//# sourceMappingURL=/build/routes/chat-TYICFMTA.js.map
