@@ -7,6 +7,12 @@ import { getSession } from '~/session.server';
 import { connectToDatabase } from '~/services/db.server';
 import { User } from '~/models/User';
 import { Message } from '~/models/Message';
+import type { LinksFunction } from "@remix-run/node";
+import styles from "~/styles/chat.css";
+
+export const links: LinksFunction = () => [
+{ rel: "stylesheet", href: styles },
+];
 
 export const loader: LoaderFunction = async ({ request }) => {
   await connectToDatabase();

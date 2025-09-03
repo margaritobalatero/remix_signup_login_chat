@@ -1,6 +1,7 @@
 import { Form, useFetcher } from '@remix-run/react';
 import { useState, useEffect, useRef } from 'react';
 
+
 interface Message {
   _id: string;
   content: string;

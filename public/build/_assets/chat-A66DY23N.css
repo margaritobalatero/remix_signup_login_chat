@@ -1,0 +1,12 @@
+/* app/styles/chat.css */
+.chat-container {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  padding: 20px;
+}
+.messages-container {
+  background: rgba(78, 71, 71, .8);
+  border-radius: 8px;
+  padding: 10px;
+}
+/*# sourceMappingURL=/build/_assets/chat-F275WL4T.css.map */

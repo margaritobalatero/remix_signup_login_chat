@@ -5,7 +5,7 @@ import {
 import {
   useFetcher,
   useLoaderData
-} from "/build/_shared/chunk-BKDLJETD.js";
+} from "/build/_shared/chunk-MID7PSDM.js";
 import "/build/_shared/chunk-U4FRFQSK.js";
 import {
   require_jsx_dev_runtime
@@ -51,7 +51,7 @@ if (import.meta) {
     //@ts-expect-error
     "app\\components\\Chat.tsx"
   );
-  import.meta.hot.lastModified = "1756281181793.331";
+  import.meta.hot.lastModified = "1756912740760.1436";
 }
 function Chat({
   messages: initialMessages,
@@ -159,6 +159,11 @@ window.$RefreshSig$ = prevRefreshSig;
 var import_auth = __toESM(require_auth(), 1);
 var import_session = __toESM(require_session(), 1);
 var import_db = __toESM(require_db(), 1);
+
+// app/styles/chat.css
+var chat_default = "/build/_assets/chat-A66DY23N.css";
+
+// app/routes/chat.tsx
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime(), 1);
 if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
@@ -178,8 +183,11 @@ if (import.meta) {
     //@ts-expect-error
     "app\\routes\\chat.tsx"
   );
-  import.meta.hot.lastModified = "1756274455239.803";
 }
+var links = () => [{
+  rel: "stylesheet",
+  href: chat_default
+}];
 function ChatRoute() {
   _s2();
   const data = useLoaderData();
@@ -187,31 +195,31 @@ function ChatRoute() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("header", { className: "chat-header", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "Chat App" }, void 0, false, {
         fileName: "app/routes/chat.tsx",
-        lineNumber: 104,
+        lineNumber: 108,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("form", { action: "/logout", method: "post", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("button", { type: "submit", className: "logout-button", children: "Logout" }, void 0, false, {
         fileName: "app/routes/chat.tsx",
-        lineNumber: 106,
+        lineNumber: 110,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/routes/chat.tsx",
-        lineNumber: 105,
+        lineNumber: 109,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/chat.tsx",
-      lineNumber: 103,
+      lineNumber: 107,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Chat, { messages: data.messages, username: data.username }, void 0, false, {
       fileName: "app/routes/chat.tsx",
-      lineNumber: 111,
+      lineNumber: 115,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/chat.tsx",
-    lineNumber: 102,
+    lineNumber: 106,
     columnNumber: 10
   }, this);
 }
@@ -224,6 +232,7 @@ $RefreshReg$(_c2, "ChatRoute");
 window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 export {
-  ChatRoute as default
+  ChatRoute as default,
+  links
 };
-//# sourceMappingURL=/build/routes/chat-JTPTSH42.js.map
+//# sourceMappingURL=/build/routes/chat-56OEI4AB.js.map

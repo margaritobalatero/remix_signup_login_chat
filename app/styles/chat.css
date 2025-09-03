@@ -1,0 +1,11 @@
+.chat-container {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px;
+}
+
+.messages-container {
+  background: rgba(78, 71, 71, 0.8);
+  border-radius: 8px;
+  padding: 10px;
+}
